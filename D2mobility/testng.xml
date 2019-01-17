@@ -1,7 +1,7 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
-<suite name="Day2Mobility" verbose="1" >
+<suite name="D2mobility" verbose="1" >
   <test name="loginpage" >
     <classes>
        <class name="com.scripts.loginpage.VerifiValidLogin" />
