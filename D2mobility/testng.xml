@@ -1,0 +1,31 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Day2Mobility" verbose="1" >
+  <test name="loginpage" >
+    <classes>
+       <class name="com.scripts.loginpage.VerifiValidLogin" />
+       <class name="com.scripts.loginpage.VerifyInvalidLogin" />
+       <class name="com.scripts.loginpage.VerifyInvalidpwd" />
+       <class name="com.scripts.loginpage.VerifyInvalidUN" />
+       <class name="com.scripts.loginpage.VerifyLoginWithoutCredentials" />
+    </classes>
+  </test> 
+ 
+  <test name="CreateOrganizatonPage" >
+    <classes>
+       <class name="com.scripts.organizationpage.VerifyCreateOrganization" />
+       <class name="com.scripts.organizationpage.VerifyCreateDuplicateOrgzn" />
+       <class name="com.scripts.organizationpage.CreateOrgznWithoutTeam" />
+       <class name="com.scripts.organizationpage.CreateEmptyOrgzn" />
+    </classes>
+  </test>
+  
+   <test name="AddNewOwner" >
+    <classes>
+       <class name="com.scripts.addnewowner.VerifyAddOwner" />
+       <class name="com.scripts.addnewowner.VerifyAddOwnerwithoutName" />
+    </classes>
+  </test> 
+  
+</suite>
