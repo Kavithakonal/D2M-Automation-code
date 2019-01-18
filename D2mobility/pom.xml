@@ -7,7 +7,7 @@
   <description>Day2Mobilty Automating Regressions</description>
   
    <properties>
-  <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+  <suiteXmlFile>testng.xml</suiteXmlFile>
   <skipTests>false</skipTests>
   </properties>
   
